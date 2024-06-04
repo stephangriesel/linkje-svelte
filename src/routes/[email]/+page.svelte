@@ -6,20 +6,20 @@
 
 <div class="hero bg-base-300">
   <div class="hero-content">
-    <div class="max-w-md text-center">
+    <div class="max-w-2xl text-center">
       <h1>{email}</h1>
-      <p>User description here</p>
+      <p>User description</p>
       <div class="grid grid-cols-3">
-        <div class="card bg-slate-700 m-4 shadow-lg shadow-blue-900">
+        <div class="card bg-slate-700 m-4 shadow-lg shadow-blue-200">
           <div class="card-body">
             <div class="text-center">
+              <!-- svelte-ignore a11y-img-redundant-alt -->
               <img
-                src={"/"}
-                alt="Linkje"
+                src={"soon.png"}
+                alt="image"
                 class="w-32 h-32 mx-auto bg-gray-500"
               />
-              <h2>Linkje name</h2>
-              <p>Magic</p>
+              <h2 class="text-white text-2xl font-bolf">Name</h2>
             </div>
           </div>
         </div>
