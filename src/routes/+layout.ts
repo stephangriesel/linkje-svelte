@@ -7,7 +7,7 @@ import { createBrowserClient, isBrowser, parse } from "@supabase/ssr";
 
 export const ssr = false;
 
-export const load: LayoutLoad = async ({ fetch, data, depends }) => {
+export const load: LayoutLoad = async ({ fetch, data, depends }: any) => {
   depends("supabase:auth");
   const supabase = createBrowserClient(
     PUBLIC_SUPABASE_URL,
