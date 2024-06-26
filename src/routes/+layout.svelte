@@ -3,7 +3,7 @@
   import { goto } from "$app/navigation";
 </script>
 
-<div class="bg-base-100 fixed top-0 left-0 right-0">
+<div class="bg-base-100 fixed top-0 left-0 right-0 bg-slate-700">
   <div class="navbar flex justify-between max-w-3xl mx-auto">
     <div>
       <a href="/" class="btn btn-ghost text-xl">Linkje</a>

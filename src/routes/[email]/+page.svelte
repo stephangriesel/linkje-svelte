@@ -4,7 +4,7 @@
   $: email = $page.params.email;
 </script>
 
-<div class="hero bg-base-300">
+<div class="hero min-h-screen bg-base-300">
   <div class="hero-content">
     <div class="max-w-2xl text-center">
       <h1>{email}</h1>
